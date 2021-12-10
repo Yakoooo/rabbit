@@ -18,6 +18,20 @@
               {{ sub.name }}
             </RouterLink>
           </template>
+          <template v-else>
+            <XtxSkeleton
+              width="60px"
+              height="18px"
+              style="margin-right:5px"
+              bg="rgba(255,255,255,0.2)"
+            ></XtxSkeleton>
+            <XtxSkeleton
+              width="60px"
+              height="18px"
+              style="margin-right:5px"
+              bg="rgba(255,255,255,0.2)"
+            ></XtxSkeleton>
+          </template>
         </li>
       </ul>
       <!-- 弹层 -->
